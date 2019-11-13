@@ -2,3 +2,14 @@ body {
     background-image: url(../assets/img/home.jpg);
     
 }
+
+.custom-p {
+background-color: white;
+border-radius: 10px;
+border: 2px;
+padding: 10px; 
+text-align: center;
+font-family: Ink Free;
+font-size: 16px;
+
+}
