@@ -1,2 +1,5 @@
 
-    
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+}
