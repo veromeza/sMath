@@ -47,10 +47,16 @@
 
         </div>
         <div class="d-flex justify-content-center ">
-        <a href="./pages/home.html" target="blank">
-          <button type="button" class="btn btn-primary" class="d-flex align-content-baseline">Jugar</button>
-          </a>
 
+          
+
+
+        <a href="./pages/home.html" target="blank">
+
+          
+          <button type="button" class="btn btn-primary" class="d-flex align-content-baseline">Jugar</button>
+          </a><br>
+          <a data-toggle="modal" data-target="#exampleModal"> <div class="mr-auto p-2 bd-highlight"><u>Registrate</u></div> </a>
       
         </div>
 
@@ -61,8 +67,35 @@
 
   <footer>
 
-    
+      <div class=" fixed-bottom d-flex bd-highlight m-2">
+        <a href="#"> <div class="mr-auto p-2 bd-highlight"><u>Aviso de privacidad</u></div> </a>
+        <a href="#"> <div class="mr-auto p-2 bd-highlight"><u>¿Ya estas registrado?</u></div> </a>
+        
+        </div>
+
+  
   </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Registrate</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+            <a href="./pages/home.html" target="blank">
+          <button type="button" class="btn btn-primary">Registrarme</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -75,6 +108,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+ <script src="./main.js"></script>
 </body>
 
 </html>
