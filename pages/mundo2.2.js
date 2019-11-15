@@ -11,7 +11,6 @@ let validar1 = document.getElementById ('validar1');
 const calificar1 = () => {
 
     let valorRespuesta = respuesta1.value
-   
 
     let respuestaCorrecta = "8";
    
@@ -63,7 +62,7 @@ const calificar3 = () => {
    
 
     if (valorRespuesta === respuestaCorrecta) {
-        validar3.innerHTML = "Bien!";
+        validar3.innerHTML = "Bien!"; 
     } else {
         validar3.innerHTML = "Sigue intentando";
     }
