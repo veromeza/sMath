@@ -1,0 +1,29 @@
+body {
+    background-image: url(./assets/img/background.jpg);
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Ink Free;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+}
+
+p{
+   /* h4 */
+font-family: Ink Free;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+}
+
+button {
+    background: #FD1E8B;
+border-radius: 22px;
+}
