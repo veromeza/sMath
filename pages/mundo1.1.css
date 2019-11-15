@@ -1,3 +1,39 @@
 body{
     background-image: url(../assets/img/juego1.jpg);
 }
+/* textoinicio */
+h1{
+    margin-left:58px;
+    font-family:Ink free;
+    color:#000;
+  
+}
+/* botones posicion */
+.gboton1{
+    position: absolute;
+  left:44%;
+  top:22%;
+  z-index: 	;
+  
+  
+}
+.gboton2{
+    position: absolute;
+  left:18%;
+  top:25%;
+  z-index: 	;
+}
+
+.gboton3{
+    position: absolute;
+  left:8%;
+  top:33%;
+  z-index: 	;
+}
+.gboton4{
+    position: absolute;
+  left:5%;
+  top:50%;
+  z-index: 	;
+}
+

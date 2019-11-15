@@ -1,0 +1,33 @@
+
+
+body {
+    background-image: url(../assets/img/fondoJuegoMundo2.jpg);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 3px;
+}
+
+.objetos {
+    width: 60px;
+    height: 60px;
+
+}
+
+.card-title{
+    text-align: center;
+}
+
+.validar {
+    text-align: right;
+    font-family: Ink Free;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+}
