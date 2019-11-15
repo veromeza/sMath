@@ -16,7 +16,7 @@ const calificar1 = () => {
    
 
     if (valorRespuesta === respuestaCorrecta) {
-        validar1.innerHTML = "Bien!";
+        validar1.innerHTML = "Bien!" ;
     } else {
         validar1.innerHTML = "Sigue intentando";
     }
