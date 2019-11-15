@@ -2,3 +2,60 @@ body {
     background-image: url(../assets/img/home.jpg);
     
 }
+/* .mundocursor:hover{
+    
+} */
+
+.custom-p {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px;
+    padding: 10px; 
+    text-align: center;
+    font-family: Ink Free;
+    font-size: 16px;
+    
+    }
+
+.MUNDO1{
+    width: 80px;
+    height: 100px;
+}
+.mundo2{
+    width: 80px;
+}
+
+.mundo3{
+    width: 80px;
+}
+
+
+
+@media only screen 
+and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    body {
+        background-image: url(../assets/img/homeipad.jpg);
+        
+    }
+    .MUNDO1 {
+        width: 200px;
+        height: 220px;
+    }
+    .mundo2{
+        width: 120px;
+    }
+    
+    .mundo3{
+        width: 120px;
+    }
+    .custom-p{
+        font-size: 24px;
+    }
+
+}
+
+   
+
+
