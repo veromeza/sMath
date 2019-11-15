@@ -1,3 +1,23 @@
 body{
     background-image: url(../assets/img/mapa2.jpg);
 }
+.conteiner1{
+    position: absolute;
+  left:29%;
+  top:23%;
+  z-index: 	;
+}
+
+.conteiner2{
+    position: absolute;
+    left:80%;
+    top: 50%;
+    z-index: 3	;
+}
+
+.conteiner3{
+    position: absolute;
+    left:7%;
+    top: 90%;
+    z-index: 	;
+}
