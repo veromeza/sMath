@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+.card-title{
+    font-family:'Indie Flower', cursive;
+    size: 100px;
+    text-align: center;
+}
+
+
+.boton{
+    background-color: black;
+    color:yellow;
+    width: 100px;
+    margin: 2px;
+}
