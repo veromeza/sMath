@@ -1,73 +1,31 @@
-let respuesta1 = document.getElementById ('respuesta1');
-/* let calificar1 = document.getElementById('calificar1'); */
-/* calificacion */
-/* let imgbien = document.getElementById('correcto');
-let imgmal = document.getElementById('mal'); */
+let button1 = document.getElementById('button1');
+let button2 = document.getElementById('button2');
+let button3 = document.getElementById('button3');
+let button4 = document.getElementById('button4');
+let button5 = document.getElementById('button5');
+let button6 = document.getElementById('button6');
+let button7 = document.getElementById('button7');
+let button8 = document.getElementById('button8');
 
-let enviar1 = document.getElementById ('enviar1');
+let imgbien = document.getElementById('imgbien');
+let imgmal = document.getElementById('imgmal');
+// butoon1
+const showbutton1 = () => {
+    document.getElementById('imgmal').classList.remove('d-none');
+  }
+   button1.addEventListener('click', showbutton1);
 
-let validar1 = document.getElementById ('validar1');
+// button2
 
-const calificar1 = () => {
+   const showbutton2 = () => {
+    document.getElementById('imgbien').classList.remove('d-none');
+  }
+   button2.addEventListener('click', showbutton2);
 
-    let valorRespuesta = respuesta1.value
-
-    let respuestaCorrecta = "8";
-   
-
-    if (valorRespuesta === respuestaCorrecta) {
-        validar1.innerHTML = "Bien!";
-    } else {
-        validar1.innerHTML = "Sigue intentando";
-    }
-
-    
-    
+// button3
+const showbutton3 = () => {
+    document.getEventById('imgmal').classList.remove('d-none');
 }
-enviar1.addEventListener('click', calificar1)
+  button3.addEventListener('click', showbutton3);
 
-let respuesta2 = document.getElementById ('respuesta2');
-let enviar2 = document.getElementById ('enviar2');
-let validar2 = document.getElementById ('validar2');
-
-const calificar2 = () => {
-
-    let valorRespuesta = respuesta2.value
-   
-
-    let respuestaCorrecta = "3";
-   
-
-    if (valorRespuesta === respuestaCorrecta) {
-        validar2.innerHTML = "Bien!";
-    } else {
-        validar2.innerHTML = "Sigue intentando";
-    }
-
-    
-    
-}
-enviar2.addEventListener('click', calificar2)
-
-let respuesta3 = document.getElementById ('respuesta3');
-let enviar3 = document.getElementById ('enviar3');
-let validar3 = document.getElementById ('validar3');
-
-const calificar3 = () => {
-
-    let valorRespuesta = respuesta3.value
-   
-
-    let respuestaCorrecta = "2";
-   
-
-    if (valorRespuesta === respuestaCorrecta) {
-        validar3.innerHTML = "Bien!"; 
-    } else {
-        validar3.innerHTML = "Sigue intentando";
-    }
-
-    
-    
-}
-enviar3.addEventListener('click', calificar3)
+// butoon4
