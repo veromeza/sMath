@@ -1,16 +1,16 @@
 body{
-    background-image: url(../assets/img/mapa2.jpg);
+    background-image: url(../assets/img/mapa2s.jpg);
 }
 .conteiner1{
     position: absolute;
   left:29%;
-  top:23%;
+  top:15%;
   z-index: 	;
 }
 
 .conteiner2{
     position: absolute;
-    left:80%;
+    left:70%;
     top: 50%;
     z-index: 3	;
 }
@@ -18,6 +18,6 @@ body{
 .conteiner3{
     position: absolute;
     left:7%;
-    top: 90%;
+    top: 85%;
     z-index: 	;
 }
