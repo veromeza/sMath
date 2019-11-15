@@ -15,6 +15,7 @@ h1{
   top:22%;
   z-index: 	;
   
+  
 }
 .gboton2{
     position: absolute;
@@ -35,9 +36,4 @@ h1{
   top:50%;
   z-index: 	;
 }
-.bird{
-width: 178px;
-height:170;
-background:url('http://mavencube.com/html5-games/js/images/sprite-image/bird-sprite.png')0 0;
-animation:play 0.8s steps(5)infinite forwards ;
-}
+
