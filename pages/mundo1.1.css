@@ -11,29 +11,29 @@ h1{
 /* botones posicion */
 .gboton1{
     position: absolute;
-  left:80px;
+  left:50%;
   top:22%;
-  z-index: 	;
+  z-index: 	
   
   
 }
 .gboton2{
     position: absolute;
-  left:18%;
-  top:25%;
-  z-index: 	;
+  left:15%;
+  top:30%;
+  z-index: 
 }
 
 .gboton3{
     position: absolute;
-  left:8%;
-  top:33%;
-  z-index: 	;
+  left:20%;
+  top:70%;
+  z-index: 
 }
 .gboton4{
     position: absolute;
-  left:5%;
+  left:50%;
   top:50%;
-  z-index: 	;
+  z-index: 	
 }
 

@@ -23,9 +23,39 @@ const showbutton1 = () => {
    button2.addEventListener('click', showbutton2);
 
 // button3
+
 const showbutton3 = () => {
     document.getEventById('imgmal').classList.remove('d-none');
 }
   button3.addEventListener('click', showbutton3);
 
 // butoon4
+
+const showbutton4 = () => {
+  document.getEventById('imgmal').classList.remove('d-none');
+}
+button4. addEventListener('click', showbutton4);
+// buto<ttn5
+const showbutton5 = () => {
+  document.getEventById('imgmal').classList.remove('d-none');
+}
+button5.addEventListener('click', showbutton5);
+
+//  button6
+const showbutton6 = () => {
+  document.getEventById('imgmal').classList.remove('d-none');
+}
+button6.addEventListener('click', showbutton6);
+
+
+// button7
+const showbutton7 = () => {
+  document.getEventById('imgmal').classList.remove('d-none');
+}
+ button7.addEventListener('click', showbutton7);
+// button8
+
+const showbutton8 = () => {
+  document.getEventById('imgmal').classList.remove('d-none');
+}
+button8.addEventListener('click', showbutton8);
